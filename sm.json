@@ -21,7 +21,7 @@
 "cateVodNode": "//ul[contains(@class,'stui-vodlist')]/li",
 "cateVodName": "//a/@title",
 "cateVodId": "//a/@href",
-"cateVodIdR": "",
+"cateVodIdR": "https://www.shimeys.com/(\\S+).html",
 "cateVodImg": "//a/@data-original",
 "cateVodImgR": "",
 "cateVodMark": "",
@@ -46,13 +46,13 @@
 "dtFromNode": "//ul[contains(@class,'stui-content__playlist')]/li",
 "dtFromName": "a/text()",
 "dtFromNameR": "",
-"dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
-"dtUrlSubNode": "/li",
-"dtUrlId": "/a/@data-href",
+"dtUrlNode": "//div[@class='paly_list_btn']",
+"dtUrlSubNode": "/a",
+"dtUrlId": "//iframe[@id='video']/@src",
 "dtUrlIdR": "",
 "dtUrlName": "",
 "dtUrlNameR": "",
-"playUrl": "{}",
+"playUrl": "playUrl",
 "playUa": "",
 "searchUrl": "https://www.bttwoo.com/xssearch?q={wd}",
 "scVodNode": "//div[contains(@class,'search_list')]/ul/li",
@@ -62,3 +62,4 @@
 "scVodImg": "//img/@data-original",
 "scVodMark": ""
 }
+当前节点：JSON.cateVodImgR
