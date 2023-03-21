@@ -11,10 +11,10 @@
 "综艺": "zongyi"
 },
 "homeVodNode": "//ul[contains(@class,'stui-vodlist')]//li[contains(@class,'col-md-7')]",
-"homeVodName": "//a@title",
+"homeVodName": "//a/@title",
 "homeVodId": "//a/@href",
 "homeVodIdR": "https://www.shimeys.com/(\\S+).html",
-"homeVodImg": "substring-before(substring-after(//li[contains(@class,'col-md-7')]//a@style, \"background-image: url(\'\"), \"\')\")",
+"homeVodImg": "div/a/@data-original",
 "homeVodImgR": "",
 "homeVodMark": "",
 "cateUrl": "https://www.shimeys.com/?id={cateId}&page={catePg}",
