@@ -25,7 +25,7 @@
 "cateVodImg": "//a/@data-original",
 "cateVodImgR": "",
 "cateVodMark": "",
-"dtUrl": "https://www.shimeys.com/{vid}.html",
+"dtUrl": "{vid}",
 "dtNode": "//body",
 "dtName": "//div[contains(@class,'stui-content__detail')]/h1/a/text()",
 "dtNameR": "",
