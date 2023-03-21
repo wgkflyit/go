@@ -46,7 +46,7 @@
 "dtFromNode": "//ul[contains(@class,'stui-content__playlist')]/li",
 "dtFromName": "a/text()",
 "dtFromNameR": "",
-"dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]",
+"dtUrlNode": "//ul[contains(@class,'stui-content__playlist')]/li",
 "dtUrlSubNode": "",
 "dtUrlId": "/li//a[contains(@class,'am-btn')]",
 "dtUrlIdR": "",
