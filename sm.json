@@ -32,7 +32,7 @@
 "dtNode": "//div[@class='myui-panel-box clearfix'][1]",
 "dtName": "//h1/text()",
 "dtNameR": "",
-"dtImg": "//img/@src",
+"dtImg": "//div[@class='myui-content__thumb']/a/img/@src",
 "dtImgR": "",
 "dtCate": "",
 "dtCateR": "",
