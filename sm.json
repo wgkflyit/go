@@ -2,6 +2,8 @@
 "author": "iole",
 "ua": "",
 "homeUrl": "https://www.zaixiandianying8.com/",
+"pCfgJs": "https://www.zaixiandianying8.com/static/js/playerconfig.js",
+"pCfgJsR": "MacPlayerConfig.player_list=([\\w\\W]*?),MacPlayerConfig.downer_list",
 "dcVipFlag": "true",
 "dcPlayUrl": "true",
 "cateManual": {
