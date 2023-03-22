@@ -47,9 +47,9 @@
     "dtFromName": "/a/text()",
     "dtFromNameR": "",
      
-    "dtUrlNode": "//iframe",
+    "dtUrlNode": "//ul[@class='stui-content__playlist column10 clearfix']/li",
     "dtUrlSubNode": "",
-    "dtUrlId": "/@src",
+    "dtUrlId": "/a/@data-href",
     "dtUrlIdR": "",
     "dtUrlName": "",
     "dtUrlNameR": "",
