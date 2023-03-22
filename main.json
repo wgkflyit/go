@@ -4,11 +4,21 @@
 "key": "csp_shenma07",
 "name": "💢神马电影",
 "type": 3,
-"api": "csp_XPathMac",
+"api": "csp_XPath",
 "searchable": 0,
 "quickSearch": 0,
 "filterable": 0,
 "ext": "https://raw.githubusercontent.com/wgkflyit/go/master/sm.json"
+},
+ {
+"key": "csp_foal",
+"name": "💢参考模版",
+"type": 3,
+"api": "csp_XPath",
+"searchable": 0,
+"quickSearch": 0,
+"filterable": 0,
+"ext": "https://freed.yuanhsing.cf/TVBox/MaooXP/newfii.json"
 },
 {"key":"csp_xp_bttwoo","name":"💢两个BT","type":3,"api":"csp_XPath","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://raw.liucn.cc/box/sub/MeowXP/bttwoo.json"},
 {"key":"csp_xp_mozhatu","name":"💢莫扎兔","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.liucn.cc/box/sub/MeowXP/mozhatu.json"},
