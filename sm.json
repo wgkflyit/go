@@ -29,11 +29,10 @@
 "cateVodMark": "",
 "dtUrl": "https://www.zaixiandianying8.com/voddetail/{vid}.html",
   
-  
-"dtNode": "//body",
-"dtName": "//div[@class='myui-content__thumb']/a/@title",
+"dtNode": "//div[@class='myui-panel-box clearfix'][1]",
+"dtName": "//h1/text()",
 "dtNameR": "",
-"dtImg": "//div[@class='myui-content__thumb']/a/img/@data-original",
+"dtImg": "//img/@src",
 "dtImgR": "",
 "dtCate": "",
 "dtCateR": "",
@@ -47,21 +46,16 @@
 "dtActorR": "",
 "dtDesc": "",
 "dtDescR": "",
-
-  
- "dtFromNode": "//ul[contains(@class,'nav-tabs')]/li/a",
-"dtFromName": "/text()",
+"dtFromNode": "//ul[@class='nav nav-tabs active'][1]",
+"dtFromName": "//a",
 "dtFromNameR": "",
-"dtUrlNode": "//ul[contains(@class,'myui-content__list')]",
-"dtUrlSubNode": "/li/a",
-"dtUrlId": "@href",
-"dtUrlIdR": "/vodplay/(\\S+).html",
+"dtUrlNode": "//a[@class='btn btn-default']",
+"dtUrlSubNode": "",
+"dtUrlId": "/@href",
+"dtUrlIdR": "",
 "dtUrlName": "/text()",
-
- 
- "playUrl": "https://www.zaixiandianying8.com/vodplay/{playUrl}.html", 
-   
-   
+"dtUrlNameR": "",
+"playUrl": "https://www.zaixiandianying8.com{playUrl}",
 "playUa": "",
 "searchUrl": "https://www.bttwoo.com/xssearch?q={wd}",
 "scVodNode": "//div[contains(@class,'search_list')]/ul/li",
