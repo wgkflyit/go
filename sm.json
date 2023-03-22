@@ -47,15 +47,18 @@
 "dtActorR": "",
 "dtDesc": "",
 "dtDescR": "",
-"dtFromNode": "//ul[@class='nav nav-tabs active'][1]",
-"dtFromName": "/a/text()",
+
+  
+ "dtFromNode": "//ul[contains(@class,'nav-tabs')]/li/a",
+"dtFromName": "/text()",
 "dtFromNameR": "",
-"dtUrlNode": "//a[@class='btn btn-warm']",
-"dtUrlSubNode": "",
-"dtUrlId": "/@href",
-"dtUrlIdR": "",
+"dtUrlNode": "//ul[contains(@class,'myui-content__list')]",
+"dtUrlSubNode": "/li/a",
+"dtUrlId": "@href",
+"dtUrlIdR": "/vodplay/(\\S+).html",
 "dtUrlName": "/text()",
-"dtUrlNameR": "",
+
+  
 "playUrl": "https://www.zaixiandianying8.com{playUrl}",
 "playUa": "",
 "searchUrl": "https://www.bttwoo.com/xssearch?q={wd}",
