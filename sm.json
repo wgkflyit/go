@@ -47,7 +47,7 @@
 "dtDesc": "",
 "dtDescR": "",
 "dtFromNode": "//ul[@class='nav nav-tabs active'][1]",
-"dtFromName": "//a",
+"dtFromName": "//a/text()",
 "dtFromNameR": "",
 
   
@@ -55,10 +55,10 @@
  "dtUrlNode": "//ul[contains(@class,'myui-content__list')]",
 "dtUrlSubNode": "/li/a",
 "dtUrlId": "@href",
-"dtUrlIdR": "/vodplay/(\\S+).html",
+"dtUrlIdR": "",
 "dtUrlName": "/text()",
 "dtUrlNameR": "",
-"playUrl": "https://www.zaixiandianying8.com/vodplay/{playUrl}.html",
+"playUrl": "https://www.zaixiandianying8.com{playUrl}",
   
   
   
