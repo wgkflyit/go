@@ -58,8 +58,10 @@
 "dtUrlIdR": "/vodplay/(\\S+).html",
 "dtUrlName": "/text()",
 
-  
-"playUrl": "https://www.zaixiandianying8.com{playUrl}",
+ 
+ "playUrl": "https://www.zaixiandianying8.com/vodplay/{playUrl}.html", 
+   
+   
 "playUa": "",
 "searchUrl": "https://www.bttwoo.com/xssearch?q={wd}",
 "scVodNode": "//div[contains(@class,'search_list')]/ul/li",
