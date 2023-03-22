@@ -27,7 +27,7 @@
 "cateVodImg": "//a/@data-original",
 "cateVodImgR": "",
 "cateVodMark": "",
-"dtUrl": "https://www.zaixiandianying8.com/voddetail/{vid}.html",
+"dtUrl": "https://www.zaixiandianying8.com{vid}.html",
 "dtNode": "//div[@class='myui-panel-box clearfix']",
 "dtName": "//h1/text()",
 "dtNameR": "",
