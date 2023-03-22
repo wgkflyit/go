@@ -29,10 +29,11 @@
 "cateVodMark": "",
 "dtUrl": "https://www.zaixiandianying8.com/voddetail/{vid}.html",
   
-"dtNode": "//div[@class='myui-panel-box clearfix'][1]",
-"dtName": "//h1/text()",
+  
+"dtNode": "//body",
+"dtName": "//div[@class='myui-content__thumb']/a/@title",
 "dtNameR": "",
-"dtImg": "//img/@src",
+"dtImg": "//div[@class='myui-content__thumb']/a/img/@data-original",
 "dtImgR": "",
 "dtCate": "",
 "dtCateR": "",
