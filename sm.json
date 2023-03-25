@@ -51,7 +51,7 @@
     "dtUrlSubNode": "/a",
     "dtUrlId": "/@href",
     "dtUrlIdR": "",
-    "dtUrlName": "",
+    "dtUrlName": "/text()",
     "dtUrlNameR": "",
     "playUrl": "https://www.smdyy.cc{playUrl}",
     "playUa": "",
