@@ -4,7 +4,7 @@
 "key": "csp_shenma07",
 "name": "💢神马电影",
 "type": 3,
-"api": "csp_XPath",
+"api": "csp_XPathFilter",
 "searchable": 1,
 "quickSearch": 0,
 "filterable": 1,
