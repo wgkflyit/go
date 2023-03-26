@@ -55,11 +55,11 @@
     "dtUrlNameR": "",
     "playUrl": "https://www.smdyy.cc{playUrl}",
     "playUa": "",
-    "searchUrl": "https://www.bttwoo.com/xssearch?q={wd}",
-    "scVodNode": "//div[contains(@class,'search_list')]/ul/li",
-    "scVodName": "/h3/a/text()",
-    "scVodId": "/@href",
-    "scVodIdR": "https://www.bttwoo.com/(\\S+).html",
-    "scVodImg": "//img/@data-original",
-    "scVodMark": ""
+    "searchUrl": "https://www.smdyy.cc/search.html?wd=",
+    "scVodNode": "//div[@class='stui-vodlist__box']",
+    "scVodName": "/a/@title",
+    "scVodId": "/a/@href",
+    "scVodIdR": "https://www.smdyy.cc/(\\S+)",
+    "scVodImg": "/a/@data-original",
+    "scVodMark": "/a/span[@class='pic-text text-right']/text()"
 }
