@@ -59,7 +59,7 @@
     "scVodNode": "//div[@class='stui-vodlist__box']",
     "scVodName": "/a/@title",
     "scVodId": "/a/@href",
-    "scVodIdR": "https://www.smdyy.cc/(\\S+)",
+    "scVodIdR": "",
     "scVodImg": "/a/@data-original",
     "scVodMark": "/a/span[@class='pic-text text-right']/text()"
 }
